@@ -1,0 +1,24 @@
+.home-split_screen {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-topPane {
+    font: inherit;
+    color: white;
+    background-color: #9f5ccc;
+    width: '50%';
+    padding: 5rem;
+    height: '100%' !important;
+    /* text-align: center; */
+}
+
+.home-topPane h1 {
+    text-align: center;
+    color: white;
+  }
+
+.home-bottomPane {
+    width: '50%';
+    margin: auto;
+}
